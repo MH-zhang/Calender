@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
 
-        android:text="Welcome to Calender and Record"
+        android:text="Welcome to Calendar and Record"
         android:textColor="#000"
         android:textSize="40sp" />
 
