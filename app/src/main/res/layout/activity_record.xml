@@ -1,0 +1,69 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="备忘录"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="#3F51B5"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"></ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="46dp">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="142dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#FF5722"
+            android:onClick="OpenAdd"
+            android:text="添加"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="46dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/calender"
+            android:layout_width="127dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#FF5722"
+            android:onClick="OpenCalender"
+            android:text="日历"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="46dp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
